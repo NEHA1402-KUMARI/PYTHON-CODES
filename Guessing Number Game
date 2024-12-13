@@ -1,0 +1,21 @@
+#Gussing Number Game
+import random
+
+Secret_Number=random.randint(1,100)
+print("Welcome to the Number Guessing Game!")
+print("I have selected a number between 1 to 100. Can you guess it ?")
+
+def guess_number():
+    guess=int(input("Enter your guess:")
+if guess<Secret_Number:
+    print("Too Low! Try Again.")
+    guess_number()
+elif guess>Secret_Number:
+      print("Too High!" Try Again.")
+      guess_number()
+else:
+print("Congratulations! You guessed the secret number:{Secret_Number}")
+
+guess_number()
+
+
