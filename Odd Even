@@ -1,0 +1,6 @@
+# Create Odd Even Program
+num=int(input("Enter your Number:-"))
+if(num%2==0):
+   print("Given Number is Even.")
+else:
+   print("Given Number is Odd.")
