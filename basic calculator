@@ -1,0 +1,20 @@
+//Create a basic Calculator Using if-else Function.
+
+num1=int(input("Enter the First number:-"))
+num2=int(input("Enter the Second number:-"))
+operator=input("which operator:- +,-,*,/")
+if operator=="+": 
+    Add=num1+num2
+    print("your answer is: ",Add)
+elif operator=="-":
+    Sub=num1-num2
+    print("ÿour answer is: ",Sub)
+    
+elif operator=="*":
+    Product=num1*num2
+    print("your answer is: ",Product)
+elif operator=="/":
+    Div=num1/num2
+    print("your answer is: ",Div)
+else:
+    print("you type a different opertator")
